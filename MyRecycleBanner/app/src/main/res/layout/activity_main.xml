@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.createchance.recyclerviewbanner.MainActivity">
+
+    <com.createchance.recyclerbanner.RecyclerBanner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:autoPlaying="true"
+        app:indicatorGravity="center"
+        app:indicatorMargin="20dp"
+        app:indicatorSelected="#00ff00"
+        app:indicatorSize="10dp"
+        app:indicatorSpace="20dp"
+        app:indicatorUnselected="#4c4c4c"
+        app:playInterval="3000"
+        app:showIndicator="true" />
+
+</RelativeLayout>
