@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E_Learning</string>
+    <string name="category_home">首页</string>
+    <string name="category_channel">学习</string>
+    <string name="category_account">我</string>
+    <string name="category_more">课程表</string>
+    <string name="search_action">搜索</string>
+</resources>

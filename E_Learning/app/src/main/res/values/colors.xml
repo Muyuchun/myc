@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="red2">#ffb20000</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="back">#ff840101</color>
+    <color name="paleyellow">#ffb8d300</color>
+    <color name="snow">#fffffafa</color>
+    <color name="seashell">#fffff5ee</color>
+    <color name="invest">#ffc9cbcc</color>
+    <color name="investhui">#ffe1e2e5</color>
+    <color name="yellow">#ffffff99</color>
+    <color name="gray">#ffe5e5e5</color>
+    <color name="gray1">#ff8b8b8b</color>
+    <color name="orange">#fffffec2</color>
+    <color name="orange1">#ffdfc274</color>
+    <color name="orange2">#ffdfc276</color>
+    <color name="orange3">#fffc8b01</color>
+    <color name="yellowy">#ffffff00</color>
+    <color name="grayy">#ff6b716b</color>
+    <color name="greensfc">#ff44d500</color>
+    <color name="greend">#ff247f00</color>
+    <color name="logoback">#ff750000</color>
+    <color name="grayt">#fff7f3f7</color>
+    <color name="loginback">#ffd9d9d9</color>
+    <color name="purple">#ff470000</color>
+    <color name="red_slight">#CD2626</color>
+	<color name="black_slight">#212121</color>
+	<color name="green">#30690B</color>
+    <color name="message_list_item_footer_background">#eeeeee</color>
+    <color name="text_color_from_normal">#5d6167</color>
+    <color name="text_color_from_unread">#4274ba</color>
+    <color name="folder_color_normal">#595e66</color>
+    <color name="folder_color_press">#e3e4e5</color>
+    <color name="activite_background">#4274ba</color><!-- 2b7ee1 -->
+    <color name="activite_btn_text_color">#4274ba</color>
+    <color name="activite_progress_text_color">#ffffff</color>
+    <color name="account_text_color">#bbbdbf</color>
+    <color name="pop_dialog_text_color_blue">#fcfcfc</color>
+    <color name="pop_dialog_text_color">#787878</color>
+    <color name="pop_dialog_message_text_color">#787979</color>
+
+    <!-- begin of Message compose color -->
+    <color name="total_transparent">#00000000</color>
+    <color name="compose_title_text_color">#7a7f87</color>
+    <color name="btn_pressed_bg_color">#4c8b8f94</color>
+    <color name="nav_btn_pressed_bg_color">#3562a6</color>
+    <color name="compose_contact_area_bg_color">#f2f3f4</color>
+    <color name="cc_bcc_text_color">#4274ba</color>
+    <!-- end of Message compose color -->
+
+
+    <!-- begin of Message view color -->
+    <color name="view_contact_area_bg_color">#e3e4e5</color>
+    <color name="view_ontact_name_color">#eff0f1</color>
+    <color name="view_subject_color">#5d6167</color>
+    <color name="view_title_color">#7a7f87</color>
+    <color name="view_current_index_color">#4274ba</color>
+    <color name="view_attachment_num_color">#7a7f87</color>
+    <color name="view_show_or_hide_attachment_color">#4274ba</color>
+    <color name="view_contact_input_text_color">#888a8f</color>
+    <color name="view_bottom_bar_more_menu_text_color">#ffffff</color>
+
+    <!-- end of Message view color -->
+
+</resources>
