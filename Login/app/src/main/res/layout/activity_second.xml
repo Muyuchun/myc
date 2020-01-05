@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/time_3"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="@string/time_class_1"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/time_2" />
+
+        <TextView
+            android:id="@+id/class_11"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="足球"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/class_13"
+            app:layout_constraintTop_toBottomOf="@id/class_9" />
+
+        <TextView
+            android:id="@+id/class_12"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="3D打印"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/class_14"
+            app:layout_constraintTop_toBottomOf="@id/class_6" />
+
+        <TextView
+            android:id="@+id/class_13"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="影视德育"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/class_15"
+            app:layout_constraintTop_toBottomOf="@id/class_8" />
+
+        <TextView
+            android:id="@+id/class_14"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="阳光品格"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/class_11"
+            app:layout_constraintTop_toBottomOf="@id/class_10" />
+
+        <TextView
+            android:id="@+id/class_15"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="情商课程"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/time_2"
+            app:layout_constraintTop_toBottomOf="@id/class_7" />
+
+        <TextView
+            android:id="@+id/time_2"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="@string/time_class_2"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/time_1" />
+
+        <TextView
+            android:id="@+id/class_10"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="科技创意"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/class_9"
+            app:layout_constraintTop_toBottomOf="@id/class_4" />
+
+        <TextView
+            android:id="@+id/class_6"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="节日课程"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/class_10"
+            app:layout_constraintTop_toBottomOf="@id/class_3" />
+
+        <TextView
+            android:id="@+id/class_7"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="校长聊天"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/time_2"
+            app:layout_constraintTop_toBottomOf="@id/class_1" />
+
+        <TextView
+            android:id="@+id/class_8"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="故事风暴"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/class_7"
+            app:layout_constraintTop_toBottomOf="@id/class_2" />
+
+        <TextView
+            android:id="@+id/thead"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="     "
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/welcome" />
+
+        <TextView
+            android:id="@+id/class_9"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="动画课程"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/class_8"
+            app:layout_constraintTop_toBottomOf="@id/class_5" />
+
+        <TextView
+            android:id="@+id/Thead"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="     "
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/welcome" />
+
+        <TextView
+            android:id="@+id/Mon"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="@string/Mon"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintBottom_toBottomOf="@+id/Thead"
+            app:layout_constraintLeft_toRightOf="@id/Thead" />
+
+        <TextView
+            android:id="@+id/Tue"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="@string/Tue"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintBottom_toBottomOf="@+id/Mon"
+            app:layout_constraintLeft_toRightOf="@id/Mon" />
+
+        <TextView
+            android:id="@+id/Wed"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="@string/Wed"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/Tue"
+            app:layout_constraintTop_toBottomOf="@id/welcome" />
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="207dp"
+            android:layout_height="85dp"
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:text="欢迎，同学："
+            android:textColor="#2196F3"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:fontFamily="monospace"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Thu"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="@string/Thu"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/Wed"
+            app:layout_constraintTop_toBottomOf="@id/welcome" />
+
+        <TextView
+            android:id="@+id/Fri"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="@string/Fri"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/Thu"
+            app:layout_constraintTop_toBottomOf="@id/welcome" />
+
+        <TextView
+            android:id="@+id/time_1"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="@string/time_class_1"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Thead" />
+
+        <TextView
+            android:id="@+id/class_1"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="爬树课"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/time_1"
+            app:layout_constraintTop_toBottomOf="@id/Mon" />
+
+        <TextView
+            android:id="@+id/class_2"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="星际迷航"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/class_1"
+            app:layout_constraintTop_toBottomOf="@id/Tue" />
+
+        <TextView
+            android:id="@+id/class_3"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="哈利科学"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/class_4"
+            app:layout_constraintTop_toBottomOf="@id/Fri" />
+
+        <TextView
+            android:id="@+id/class_4"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="垃圾乐事"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintLeft_toRightOf="@id/class_5"
+            app:layout_constraintTop_toBottomOf="@id/Thu" />
+
+        <TextView
+            android:id="@+id/class_5"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="枫糖汁"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintBottom_toBottomOf="@+id/class_4"
+            app:layout_constraintLeft_toRightOf="@id/class_2"
+            app:layout_constraintTop_toBottomOf="@id/Wed"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/course_info"
+            android:layout_width="408dp"
+            android:layout_height="218dp"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="center"
+            android:scrollbars="vertical"
+            android:text="点击课程名得知课程信息！"
+            android:textColor="#FF5722"
+            android:textSize="24sp"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-medium"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/time_3" />
+
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="207dp"
+            android:layout_height="85dp"
+            android:background="@android:drawable/editbox_dropdown_light_frame"
+            android:gravity="center"
+            android:textColor="#F44336"
+            android:textSize="30sp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toRightOf="@id/welcome"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:background="?attr/actionModeCloseDrawable"
+            android:text="back"
+            android:textColor="#4CAF50"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:background="@android:drawable/ic_menu_mylocation"
+            android:text="@android:string/search_go"
+            android:textColor="#4CAF50"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.task.Third">
+
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="415dp"
+        android:layout_height="145dp"
+        android:gravity="center"
+        android:text="E-Learing~"
+        android:textColor="#2196F3"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:fontFamily="serif-monospace"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password_input3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/account_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:hint="请再次输入密码"/>
+
+    <EditText
+
+        android:id="@+id/account_input"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:hint="请输入账号"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/password_input"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@id/account_input"
+        android:textSize="20sp"
+        android:hint="请输入密码"/>
+
+    <Button
+        android:id="@+id/btn_enroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_input"
+        android:layout_marginTop="118dp"
+        android:text="注册"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_enroll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_input"
+        android:layout_marginTop="172dp"
+        android:text="后退"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/statusView"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_alignTop="@id/name2"
+        android:layout_marginTop="165dp"
+        android:gravity="center"
+        android:textSize="24sp" />
+</RelativeLayout>

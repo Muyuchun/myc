@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="welcome">Welcome!下面是你的课表</string>
+    <string name="time_class_1">8:00 am</string>
+    <string name="time_class_2">2:00 pm</string>
+    <string name="time_class_3">7:00 pm</string>
+    <string name="Mon">Mon</string>
+    <string name="Tue">Tue</string>
+    <string name="Wed">Wed</string>
+    <string name="Thu">Thu</string>
+    <string name="Fri">Fri</string>
+</resources>

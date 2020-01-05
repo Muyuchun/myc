@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-33dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="415dp"
+            android:layout_height="145dp"
+            android:gravity="center"
+            android:text="E-Learing~"
+            android:textColor="#2196F3"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            app:fontFamily="serif-monospace"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="账号"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FF9800"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/name" />
+
+        <EditText
+            android:id="@+id/accountEdit"
+            android:layout_width="353dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="number|textPersonName|text"
+            android:textColor="#E91E63"
+            android:textSize="18sp"
+            android:typeface="serif"
+            app:layout_constraintLeft_toRightOf="@id/account"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/name" />
+
+        <TextView
+            android:id="@+id/Pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="密码"
+            android:textColor="#FF9800"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/account" />
+
+        <EditText
+            android:id="@+id/PwdEdit"
+            android:layout_width="350dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#4CAF50"
+            android:typeface="sans"
+            app:layout_constraintLeft_toRightOf="@id/Pwd"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/accountEdit" />
+
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="67dp"
+            android:background="@drawable/textview_border"
+            android:text="Register"
+            android:textColor="#2196F3"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/login"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PwdEdit" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginRight="68dp"
+            android:background="@drawable/textview_border"
+            android:text="Login"
+            android:textColor="#2196F3"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/Register"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/Register"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/statusView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="69dp"
+            android:layout_marginBottom="81dp"
+            android:gravity="center"
+            android:textColor="#CDDC39"
+            android:textSize="18sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toTopOf="@+id/cb"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Register" />
+
+        <CheckBox
+            android:id="@+id/cb"
+            android:layout_width="312dp"
+            android:layout_height="88dp"
+            android:layout_marginBottom="76dp"
+            android:duplicateParentState="false"
+            android:text="我已阅读并同意用户条约"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageButton
+            android:id="@+id/qq"
+            android:layout_width="104dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="67dp"
+            android:src="@drawable/qq"
+            app:layout_constraintBottom_toTopOf="@+id/cb"
+            app:layout_constraintEnd_toStartOf="@+id/wechat"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/statusView" />
+
+        <ImageButton
+            android:id="@+id/wechat"
+            android:layout_width="93dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="79dp"
+            android:src="@drawable/wechat"
+            app:layout_constraintBottom_toTopOf="@+id/cb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/qq"
+            app:layout_constraintTop_toBottomOf="@+id/statusView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
