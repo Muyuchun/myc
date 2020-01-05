@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.coursetable.MainActivity">
+
+    <GridView
+        android:id="@+id/gvDate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:numColumns="8" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <com.example.coursetable.MyListView
+                android:id="@+id/lvNum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:divider="@null"></com.example.coursetable.MyListView>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7">
+
+                <com.example.coursetable.MyGridView
+                    android:id="@+id/gvContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:horizontalSpacing="0dp"
+                    android:numColumns="7"
+                    android:scrollbars="none"
+                    android:verticalSpacing="0dp"></com.example.coursetable.MyGridView>
+
+                <com.example.coursetable.MySchedule
+                    android:id="@+id/mySchedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></com.example.coursetable.MySchedule>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
